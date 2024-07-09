@@ -71,7 +71,7 @@ class _MyBottomSheetHomePageState extends State<MyBottomSheetHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.black.withOpacity(0.5),
       bottomSheet: FractionallySizedBox(
         heightFactor: 0.5,
         widthFactor: 1.0,

@@ -1,12 +1,8 @@
 <resources>
     <style name="Theme.test_flutter_app.BottomSheet" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:backgroundDimEnabled">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowMinWidthMinor">100%</item>
         <item name="android:windowMinWidthMajor">100%</item>
-        <item name="android:windowBackground">@drawable/background_bottom_sheet_dialog</item>
     </style>
 </resources>
